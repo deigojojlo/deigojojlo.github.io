@@ -1,0 +1,78 @@
+body {
+    margin: 0;
+}
+
+#homepage {
+    color : white ;
+    outline: none;
+    text-decoration: none;
+    margin-left : 1.5%;
+    margin-top : 20% 
+}
+
+#git {
+    color : white ;
+    outline: none;
+    text-decoration: none;
+    margin-left : 2%;
+}
+
+#cours {
+    color: white;
+    text-decoration: none;
+    outline: none;
+    margin-left: 2%;
+}
+
+#cours-particulier {
+    color: white;
+    text-decoration: none;
+    outline: none;
+    margin-left: 2%;
+}
+
+.header-link {
+    padding-top: 28px;
+    padding-bottom: 20px;
+}
+.home {
+    width:100%;
+    background-color: black;
+    
+}
+
+
+
+
+header {
+    background-color: black;
+    position: relative;
+    width: 100%;
+}
+
+footer {
+    background-color: black;
+    color: white;
+}
+
+.reseau {
+    list-style-type: none;
+    margin-left: 10%;
+    padding-top: 2%;
+}
+
+.reseau-link {
+    outline : none ;
+    color : white ;
+    text-decoration: none;
+}
+
+.copy {
+    text-align: center;
+    padding-bottom: 2%;
+}
+
+
+
+
+ 

@@ -1,0 +1,89 @@
+.title-git {
+    padding-top: 75px;
+}
+#name-git {
+    margin-left: 2% ;
+    color : black ;
+    outline: none;
+    text-decoration: none;
+}
+
+#git-link {
+    color : black ;
+    outline: none;
+    text-decoration: none;
+    display: flex;
+    height: 70px;
+    margin-top: 2%;
+    margin-left : 2%;
+    
+}
+
+.git-list-projet{
+    list-style-type: none;
+    padding: 1%;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-gap: 10%;
+    grid-auto-rows: minmax(100px, auto);
+}
+
+.cards {
+    width: auto;
+    box-shadow: grey ;
+    height: 125px;
+    border : black;
+    border-width: 2px;
+    border-radius: 20px;
+    border-style:inset    ;
+    background-color: white;
+    
+}
+
+.cards:hover {
+    scale: 102%;
+    transition: all;
+    border-style: inset;
+    box-shadow: 10px 5px 5px gray;
+}
+
+.link-title {
+    outline: none ;
+    text-decoration: none;
+    color : black;
+    padding-top: 0%;
+}
+
+.content {
+    display: grid;
+    grid-template-rows: 30px 3em 30px;
+    padding: 1%;
+}
+
+.git-list-title-project {
+    margin: 2%;
+    margin-left: 5%;
+
+}
+
+.git-list-description-project {
+    font-size: small;
+    margin-left: 5%;
+    margin-top: 2%;
+}
+
+.git-list-lang-project {
+    margin-bottom: 2%;
+    text-align: right;
+    margin-right: 10%;
+}
+
+.square-python{
+    width:3px; 
+    height:3px;  
+    border : black;
+    border-width: 1px;
+    border-radius: 1px;
+    border-style:solid    ;
+    background-color: rgb(68, 160, 218);
+    padding:5px}
