@@ -1,0 +1,47 @@
+.cours-presentation {
+    padding: 2%;
+    display: grid;
+    grid-template-columns: 70%  30%;
+}
+
+#cours-presentation-p {
+    font-size: large;
+}
+
+.service  {
+    margin : 2%
+}
+
+h2 {
+    font-size: xx-large;
+    text-decoration: underline;
+}
+.service-list {
+    list-style-type: square;
+    padding : 2%;
+    margin-left: 2%;
+    font-size: larger;
+}
+
+
+.cours-tarif {
+    margin : 2%
+}
+
+#tarif-descri {
+    margin-left : 1%;
+    font-size: large;
+}
+.cours-tarif-list {
+    padding-left : 2% ;
+    margin-left : 2% ;
+    font-size: large;
+}
+
+.contact {
+    margin: 2%;
+}
+
+.contact-list {
+    margin-left: 2%
+}
