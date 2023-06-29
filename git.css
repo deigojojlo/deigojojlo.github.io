@@ -1,12 +1,15 @@
-.title-git {
-    padding-top: 75px;
-}
+
 #name-git {
     margin-left: 2% ;
     color : black ;
     outline: none;
     text-decoration: none;
 }
+#img-git {
+    border-radius: 50%;
+    outline: auto;
+}
+
 
 #git-link {
     color : black ;
@@ -18,6 +21,12 @@
     margin-left : 2%;
     
 }
+
+.git-description  {
+    margin-left: 4em;
+    margin-top: 1em;
+}
+
 
 .git-list-projet{
     list-style-type: none;

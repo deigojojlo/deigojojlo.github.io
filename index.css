@@ -54,11 +54,16 @@ header {
 footer {
     background-color: black;
     color: white;
+    
 }
-
+.foot {
+    display: grid;
+    grid-template-columns: 50% 50%;
+}
 .reseau {
     list-style-type: none;
-    margin-left: 10%;
+    margin: 10%;
+    margin-left: 25%;
     padding-top: 2%;
 }
 
@@ -68,6 +73,15 @@ footer {
     text-decoration: none;
 }
 
+.other-footer {
+    padding: 10%;
+}
+
+.other-footer-list{
+    list-style-type: none;
+    color : white ;
+    text-decoration: none;
+}
 .copy {
     text-align: center;
     padding-bottom: 2%;
