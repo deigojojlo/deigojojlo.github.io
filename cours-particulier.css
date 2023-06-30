@@ -6,6 +6,7 @@
 
 #cours-presentation-p {
     font-size: large;
+;
 }
 
 .service  {
@@ -43,5 +44,6 @@ h2 {
 }
 
 .contact-list {
-    margin-left: 2%
+    margin-left: 2% ; 
+    padding-bottom: 5%;
 }
