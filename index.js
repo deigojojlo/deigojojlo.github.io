@@ -8,7 +8,9 @@ function time () {
     diff--
     let heures = parseInt(diff/3600,10)
     let minutes = parseInt((diff%3600)/60,10)
+    minutes = minutes <= 10 ? "0" + minutes : minutes
     let seconds = parseInt((diff%3600)%60,10)
+    seconds = seconds <= 10 ? "0" + seconds : seconds
     timerElement.innerText = heures + ":" + minutes + ":" + seconds
     
 };
