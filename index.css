@@ -10,6 +10,8 @@ body {
     margin-top : 20% 
 }
 
+
+
 #git {
     color : white ;
     outline: none;
@@ -17,11 +19,16 @@ body {
     margin-left : 2%;
 }
 
+
 #cours {
     color: white;
     text-decoration: none;
     outline: none;
     margin-left: 2%;
+}
+
+#cours:hover , #homepage:hover , #cours-particulier:hover, #git:hover {
+    color : greenyellow
 }
 
 #cours-particulier {
@@ -39,7 +46,6 @@ body {
 .home {
     width:100%;
     background-color: black;
-    
 }
 
 
@@ -73,7 +79,10 @@ footer {
 }
 
 .other-footer {
-    padding: 10%;
+    list-style-type: none;
+    margin: 10%;
+    margin-left: 25%;
+    padding-top: 2%;
 }
 
 .other-footer-list{
