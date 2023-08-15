@@ -1,9 +1,10 @@
 body {
     margin: 0;
+    background-color: aliceblue;
 }
 
 #homepage {
-    color : white ;
+    color : aliceblue ;
     outline: none;
     text-decoration: none;
     margin-left : 1.5%;
@@ -45,20 +46,20 @@ body {
 
 .home {
     width:100%;
-    background-color: black;
+    background-color: rgb(23, 175, 150);
 }
 
 
 
 
 header {
-    background-color: black;
+    background-color:  rgb(23, 175, 150);
     position: relative;
     width: 100%;
 }
 
 footer {
-    background-color: black;
+    background-color:  rgb(23, 175, 150);
     color: white;
 }
 .foot {

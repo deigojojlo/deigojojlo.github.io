@@ -2,40 +2,74 @@
     padding: 2%;
     display: grid;
     grid-template-columns: 70%  30%;
+    background-color: mediumseagreen;
+    margin: 2%;
+    border-radius: 10px;
+    border-width: 2px;
+    border-color : black ;
+    color : aliceblue
 }
 
 #cours-presentation-p {
     font-size: large;
-;
 }
 
 .service  {
-    margin : 2%
+    margin : 2% ;
+    padding: 2%;
+    background-color: #8a1538;
+    border-radius: 10px;
+    border-color: black;
+    border-width: 2px;
 }
 
 h2 {
     font-size: xx-large;
-    text-decoration: underline;
+    text-decoration: none ;
+    text-align: center;
 }
 .service-list {
     padding : 2%;
     margin-left: 2%;
     font-size: larger;
+    color: aliceblue;
 }
 
+.service-list li {
+    padding: 5px;
+}
+
+.service h2 , .cours-tarif h2 {
+    color: aliceblue;
+}
 
 .cours-tarif {
-    margin : 2%
+    margin : 2% ;
+    background-color: rgb(102, 163, 243);
+    border-radius: 10px;
+    border-width: 2px;
+    border-color : black ;
+    padding : 2% ;
 }
 
 #tarif-descri {
     margin-left : 1%;
     font-size: large;
+    color : aliceblue ;
 }
 .cours-tarif-list {
     padding-left : 2% ;
     margin-left : 2% ;
     font-size: large;
+    color: aliceblue;
+    
+}
+
+.Tarif {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-gap: 10%;
+    grid-auto-rows: minmax(100px, auto);
 }
 
 .contact {
@@ -43,6 +77,9 @@ h2 {
 }
 
 .contact-list {
-    margin-left: 2% ; 
+    margin : 0 ;
+    padding-left: 0 ;;
     padding-bottom: 5%;
+    text-align: center;
+    list-style: none;
 }
