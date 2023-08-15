@@ -2,16 +2,22 @@
     padding: 2%;
     display: grid;
     grid-template-columns: 70%  30%;
+    margin: 2%;
+}
+
+.cours {
+    color : aliceblue ;
     background-color: mediumseagreen;
     margin: 2%;
     border-radius: 10px;
     border-width: 2px;
     border-color : black ;
-    color : aliceblue
+    padding: 2%;
 }
 
 #cours-presentation-p {
     font-size: large;
+    
 }
 
 .service  {
@@ -39,7 +45,7 @@ h2 {
     padding: 5px;
 }
 
-.service h2 , .cours-tarif h2 {
+.service h2 , .cours-tarif h2 , .cours-presentation h2 {
     color: aliceblue;
 }
 
@@ -73,7 +79,13 @@ h2 {
 }
 
 .contact {
-    margin: 2%;
+    margin : 2% ;
+    background-color: rgb(51, 51, 51);
+    border-radius: 10px;
+    border-width: 2px;
+    border-color : black ;
+    padding : 2% ;
+    color : aliceblue
 }
 
 .contact-list {
