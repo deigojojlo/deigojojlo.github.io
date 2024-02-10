@@ -35,6 +35,15 @@
     grid-template-columns: repeat(3, 1fr);
     grid-gap: 10%;
     grid-auto-rows: minmax(100px, auto);
+    display: grid;
+    grid-column-gap: 10%;
+    row-gap: 50px;
+    grid-template-columns: repeat(auto-fit,minmax(317px,1fr));
+    margin-top: 5%;
+    padding-right: 10%;
+    padding-left: 10%;
+    height: auto;
+    padding-bottom: 50px;
 }
 
 .cards {
@@ -46,7 +55,6 @@
     border-radius: 20px;
     border-style:inset    ;
     background-color: aliceblue;
-    
 }
 
 .cards:hover {

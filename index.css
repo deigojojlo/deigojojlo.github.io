@@ -13,31 +13,25 @@ body {
 
 
 
-#git {
+#git, #cours , #cours-particulier ,#université-link {
     color : white ;
     outline: none;
     text-decoration: none;
     margin-left : 2%;
 }
 
-
-#cours {
-    color: white;
-    text-decoration: none;
-    outline: none;
-    margin-left: 2%;
+#université-link:hover { 
+    color: #8a1538;
 }
 
-#cours:hover , #homepage:hover , #cours-particulier:hover, #git:hover {
-    color : greenyellow
+#git:hover {
+    color : black ;
 }
 
-#cours-particulier {
-    color: white;
-    text-decoration: none;
-    outline: none;
-    margin-left: 2%;
+#cours:hover , #homepage:hover , #cours-particulier:hover {
+    color : rgb(144, 47, 255) ;
 }
+
 
 .header-link {
     padding-top: 28px;
@@ -46,20 +40,19 @@ body {
 
 .home {
     width:100%;
-    background-color: rgb(23, 175, 150);
+    background-color: rgb(4, 51, 78);
 }
 
 
 
-
 header {
-    background-color:  rgb(23, 175, 150);
+    background-color:  rgb(4, 51, 78);
     position: relative;
     width: 100%;
 }
 
 footer {
-    background-color:  rgb(23, 175, 150);
+    background-color:  rgb(4, 51, 78);
     color: white;
 }
 .foot {
